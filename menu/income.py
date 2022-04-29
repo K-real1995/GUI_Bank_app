@@ -7,11 +7,7 @@ class Income:
 
     def set_percent(self, percent):
         self.__percent = percent
-        for key, value in data_base.db.items():
-            if value <= 0:
-                pass
-            else:
-                res = value + (value / 100 * float(percent))
-                data_base.db[key] = round(res)
 
-
+    def set_percent_for_all_accounts(self):
+        my_db = data_base.Data_base()
+        my_db.set_percent_for_all_accounts_in_db(int(self.__percent))

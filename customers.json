@@ -1,0 +1,36 @@
+{
+  "customers": [
+    {
+      "name": "Ivanov",
+      "sum": 383
+    },
+    {
+      "name": "Popov",
+      "sum": 7137
+    },
+    {
+      "name": "Petrov",
+      "sum": 255
+    },
+    {
+      "name": "Petuhov",
+      "sum": -2800
+    },
+    {
+      "name": "Semenov",
+      "sum": -500
+    },
+    {
+      "name": "Sidorov",
+      "sum": 0
+    },
+    {
+      "name": "Kuznetcov",
+      "sum": 0
+    },
+    {
+      "name": "Egorov",
+      "sum": 638
+    }
+  ]
+}

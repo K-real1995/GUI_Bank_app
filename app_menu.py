@@ -25,5 +25,6 @@ elif arguments_list[0] == "TRANSFER":
 elif arguments_list[0] == "INCOME":
     my_income = income.Income()
     my_income.set_percent(arguments_list[1])
+    my_income.set_percent_for_all_accounts()
 else:
     print("Вы ввели неверные значения попробуйте еще раз")
