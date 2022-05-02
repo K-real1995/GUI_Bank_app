@@ -2,15 +2,15 @@
   "customers": [
     {
       "name": "Ivanov",
-      "sum": 2545
+      "sum": 10287
     },
     {
       "name": "Popov",
-      "sum": 15578
+      "sum": 47850
     },
     {
       "name": "Petrov",
-      "sum": -148
+      "sum": -998
     },
     {
       "name": "Petuhov",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Egorov",
-      "sum": 1394
+      "sum": 4282
     }
   ]
 }
