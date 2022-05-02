@@ -47,6 +47,7 @@ class Data_base:
         if name == "Не задано":
             for key in data["customers"]:
                 print("Клиент: " + key["name"] + ", Баланс: " + str(key["sum"]))
+
         else:
             for key in data["customers"]:
                 if key["name"] == name:
